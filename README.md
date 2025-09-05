@@ -4,6 +4,10 @@
 - [https://github.com/cmhenry/unm_2025_workshop_scraping_LLM](https://github.com/cmhenry/unm_2025_workshop_scraping_LLM) - this repository with main workshop materials and notebooks
 - [https://github.com/cmhenry/unm_2025_workshop_scraping_LLM](https://github.com/cmhenry/unm_2025_workshop_scraping_LLM) - datasets used in workshop exercises
 
+## Workshop Slides
+
+- **Conceptual Introduction to scraping, the Internet as a data source, and LLMs**: <a href="https://github.com/cmhenry/unm_workshop_2025/blob/main/conceptual.html" target="_blank">Slides</a>
+
 ## Workshop Notebooks
 *💡 Tip: Right-click on the Colab badges below and select "Open link in new tab" to keep this page open while working with the notebooks.*
 
