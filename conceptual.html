@@ -278,10 +278,12 @@ Set up the puzzle: attention is scarce; communities may escalate rhetoric to cap
   - **APIs** for structured access where available
   - **Snowball sampling** to expand from seeds to communities
 
-![pipeline](images/pipeline.png)
-
 ???
 Explain the hybrid approach: mix scraping and APIs to mitigate platform constraints. Note ethics: ToS, robots.txt, IRB, and rate limits. Emphasize logging queries and timestamps for replication.
+
+---
+
+![pipeline](images/pipeline.png)
 
 ---
 
@@ -290,10 +292,12 @@ Explain the hybrid approach: mix scraping and APIs to mitigate platform constrai
 - Use **overlapping snowball chain detection** for network-aware grouping
 - Output: community graphs + metadata (nodes, edges, overlap)
 
-<div class="img-placeholder">Snownball sampler <code>![snowball](images/snowball.png)</code></div>
-
 ???
 Walk through the pipeline visually. Emphasize that communities emerge from connectivity patterns, not just hashtags. Mention that overlap captures cross-community exposure/competition.
+
+---
+
+![snowball](images/snowball.png)
 
 ---
 
@@ -304,10 +308,12 @@ Walk through the pipeline visually. Emphasize that communities emerge from conne
   - Overall extremist content
   - In-group vs. out-group targeting
 
-<div class="img-placeholder">Prompt <code>![prompt](images/prompt.png)</code></div>
-
 ???
 Bridge to today’s LLM notebook: they’ll see prompts/JSON output and a basic sentiment example. Note validation via held-out or external datasets; emphasize transparency of labeling criteria.
+
+---
+
+![prompt](images/prompt.png)
 
 ---
 

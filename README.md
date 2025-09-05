@@ -2,7 +2,6 @@
 ### A Workshop at the University of New Mexico, Sept. 5 2025
 
 - [https://github.com/cmhenry/unm_2025_workshop_scraping_LLM](https://github.com/cmhenry/unm_2025_workshop_scraping_LLM) - this repository with main workshop materials and notebooks
-- [https://github.com/cmhenry/unm_2025_workshop_scraping_LLM](https://github.com/cmhenry/unm_2025_workshop_scraping_LLM) - datasets used in workshop exercises
 
 ## Workshop Slides
 
@@ -29,4 +28,4 @@
 
 - <a href="https://henryhenryhenry.com/unm_workshop_2025/notebooks/introduction_to_python/" target="_blank">**Introduction to Python and Pandas**</a>
 
-<a href="https://henryhenryhenry.com/unm_workshop_2025/notebooks/nlp/" target="_blank">**Introduction to NLP**</a>
+- <a href="https://henryhenryhenry.com/unm_workshop_2025/notebooks/nlp/" target="_blank">**Introduction to NLP**</a>
