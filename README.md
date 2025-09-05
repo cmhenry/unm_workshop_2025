@@ -8,7 +8,7 @@
 *💡 Tip: Right-click on the Colab badges below and select "Open link in new tab" to keep this page open while working with the notebooks.*
 
 
-- **Workshop Web Scraping Session in Google Colab**: <a href="https://colab.research.google.com/github/ValRCS/BSSDH_2025_workshop_LLM_API/blob/main/notebooks/workshop_session_2.ipynb?flush_cache=true" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- **Workshop Web Scraping Session in Google Colab**: <a href="https://colab.research.google.com/github/cmhenry/unm_workshop_2025/blob/main/notebooks/workshop_session_1_web_scraping.ipynb?flush_cache=true" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 - **Workshop LLM Session in Google Colab**: <a href="https://colab.research.google.com/drive/1VtrhKXGUXkvHbC6_3HF_F_2uGCsr-nJ3?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
