@@ -22,11 +22,17 @@
 class: center, middle
 
 # Welcome!
-## Basics of Web Scraping and Language Models: 
+## Basics of Web Scraping and LLMs: 
 ### A Workshop at the University of New Mexico, Sept. 5 2025
+Workshop site: https://henryhenryhenry.com/unm_workshop_2025/
 
 Colin Henry, PhD
 Postdoctoral Research, University of Zurich
+**Research focus:** online political movements, extremism, and digital communities
+
+---
+
+# Research Introduction
 
 ---
 
@@ -37,7 +43,7 @@ class: center, middle
 
 **Workshop Flow**  
 1) Concepts & Ethics  
-2) Web scraping (BeautifulSoup on *bookstoscrape.com*)  
+2) Web scraping 
 3) LLMs for basic text analysis
 4) Bluesky API?
 
@@ -193,25 +199,147 @@ Measurement validity is key: who speaks, who is silent, and what systematic bias
 
 ---
 
-# Preparing for Hands-On
-- Practice on safe targets:
-  - **bookstoscrape.com** for scraping
-  - **Bluesky AT Protocol** for API data
-- Then: basic text analysis with **LLMs**
+# Interlude for breakout discussion
+
+---
+
+class: center, middle
+
+# Discussion Activity  
+## Applying Web Data Concepts to Your Research
+
+.footnote[Break into pairs/groups, ~5–7 minutes per prompt.]
 
 ???
-We’ll learn transferable patterns in a controlled environment, then apply them to live social data with clear rules, and finish with an LLM walkthrough.
+We’ll now connect conceptual ideas to your own research projects. Discuss in pairs or small groups; the goal is to surface practical applications and dilemmas.
+
+---
+
+# Prompt 1: Public vs. Private Data
+- Imagine studying an online political community (e.g., activists, party members, diaspora groups).  
+- Which platforms would you scrape or query via API?  
+- Treat posts as **public speech** or **private communication**?  
+- How would this affect ethical/legal choices?
+
+???
+Push students to think about expectations of privacy. Twitter may feel public, but WhatsApp or Discord are closer to private spaces. Their answers will depend on norms and project goals.
+
+---
+
+# Prompt 2: Representativeness & Bias
+- Collecting data from Twitter/X or Reddit…  
+- Who is **overrepresented** in your sample?  
+- Who might be **missing**?  
+- How could these biases shape findings?  
+- What strategies could address them?
+
+???
+Encourage critical thinking: younger, more urban, tech-savvy populations dominate some platforms. Strategies: triangulate sources, weight data, or clearly scope limits in write-up.
+
+---
+
+# Prompt 3: Transparency & Replication
+- You scrape a government website for legislative data.  
+- What parts of the process should be shared for replication?  
+- What risks prevent sharing raw data?  
+- How to balance **open science** and **responsibility**?
+
+???
+Students should weigh transparency with ethical limits. Code, scraping scripts, and documentation are safer to share than identifiable raw datasets. Discuss replication packages in political science.
+
+---
+
+# ✅ Goal  
+By the end of discussion:  
+- Connect scraping & APIs to your **own projects**  
+- Identify **ethical and methodological dilemmas**  
+- Practice framing your choices for transparency & rigor
+
+???
+Wrap-up: the point is to bridge concepts with their research interests, ensuring takeaways feel personally relevant.
+
+---
+
+# Interlude: A break and then research applications and hands-on training
+
+---
+
+# Research Question
+- Why do some online communities show **greater extremism** than others?
+- Core idea: **Competition for attention** → incentives for **extreme content**
+
+???
+Set up the puzzle: attention is scarce; communities may escalate rhetoric to capture it. This frames all methods as steps to measure communities, attention, and extremism reliably.
+
+---
+# Data Collection Across Platforms
+- **Targets**: Twitter/X, Reddit, YouTube, TikTok
+- **Methods**:
+  - Web scraping (HTML extraction where APIs are limited)
+  - **APIs** for structured access where available
+  - **Snowball sampling** to expand from seeds to communities
+
+<div class="img-placeholder">Pipeline <code>![pipeline](images/pipeline.png)</code></div>
+
+???
+Explain the hybrid approach: mix scraping and APIs to mitigate platform constraints. Note ethics: ToS, robots.txt, IRB, and rate limits. Emphasize logging queries and timestamps for replication.
+
+---
+
+# Community Detection (Snowball Chains)
+- Start with **seed nodes** → discover neighbors → form chains → merge into communities
+- Use **overlapping snowball chain detection** for network-aware grouping
+- Output: community graphs + metadata (nodes, edges, overlap)
+
+<div class="img-placeholder">Snownball sampler <code>![snowball](images/snowball.png)</code></div>
+
+???
+Walk through the pipeline visually. Emphasize that communities emerge from connectivity patterns, not just hashtags. Mention that overlap captures cross-community exposure/competition.
+
+---
+
+# Text Classification with LLMs
+- Collect **user-generated text** per community
+- **Transformers** (e.g., LLaMA family) for abuse/extremism coding
+- Instruction-tuned classification to flag:
+  - Overall extremist content
+  - In-group vs. out-group targeting
+
+<div class="img-placeholder">Prompt <code>![prompt](images/prompt.png)</code></div>
+
+???
+Bridge to today’s LLM notebook: they’ll see prompts/JSON output and a basic sentiment example. Note validation via held-out or external datasets; emphasize transparency of labeling criteria.
+
+---
+
+# What This Enables
+- Map **competition**: number of communities, overlap ratios (IVs)
+- Measure **extremism**: levels & targets (in-/out-group) (DVs)
+- Test **theory**: Does competition predict extremism? Do platform rules moderate the effect? (regular ol' regression)
+
+???
+Keep results at a high level; save details for a separate talk. The goal is to show that the pipeline leads to testable implications and interpretable findings.
 
 ---
 
 # Key Takeaways
-- Internet data is abundant—but responsibility is essential
-- Scraping & APIs are complementary tools
-- Ethics & legality shape research design and dissemination
-- Aim for valuable, rigorous, and responsible scholarship
+- **Scraping + APIs + Snowball + LLMs** = end-to-end pipeline
+- Same building blocks you’ll practice today
+- Balance **rigor** (replication, documentation) with **responsibility** (ethics, privacy)
 
 ???
-Reinforce the main message: value and responsibility must travel together. The tools are powerful; our choices determine their impact.
+Close by connecting back to the agenda. Invite students to map these steps onto their own projects and note where today’s hands-on sections fit into that pipeline.
+
+---
+
+# Preparing for Hands-On
+- Practice on safe targets:
+  - **bookstoscrape.com** for scraping
+- Then: basic text analysis with **LLMs**
+- Maybe: **Bluesky AT Protocol** for API data
+
+???
+We’ll learn transferable patterns in a controlled environment, then apply them to live social data with clear rules, and finish with an LLM walkthrough.
 
 ---
 
