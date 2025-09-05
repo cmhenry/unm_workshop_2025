@@ -14,6 +14,8 @@
 
 - **Workshop Web Scraping Session in Google Colab**: <a href="https://colab.research.google.com/github/cmhenry/unm_workshop_2025/blob/main/notebooks/workshop_session_1_web_scraping.ipynb?flush_cache=true" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-- **Workshop LLM Session in Google Colab**: <a href="https://colab.research.google.com/github/cmhenry/unm_workshop_2025/blob/main/notebooks/workshop_session_2a_LLMs.ipynb?flush_cache=true" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- **Workshop LLM Session 1 in Google Colab**: <a href="https://colab.research.google.com/github/cmhenry/unm_workshop_2025/blob/main/notebooks/workshop_session_2a_LLMs.ipynb?flush_cache=true" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+- **Workshop LLM Session 2 in Google Colab**: <a href="https://colab.research.google.com/github/cmhenry/unm_workshop_2025/blob/main/notebooks/workshop_session_2b_LLMs.ipynb?flush_cache=true" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 - **Workshop Bluesky API Session in Google Colab**: <a href="https://colab.research.google.com/github/cmhenry/unm_workshop_2025/blob/main/notebooks/workshop_session_3_bluesky.ipynb?flush_cache=true" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
