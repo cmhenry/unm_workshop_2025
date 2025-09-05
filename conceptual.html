@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conceptual Introduction — Web Data & LLMs for Political Science</title>
+  <style>
+    /* Minimal, readable theme */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    h1, h2, h3 { font-weight: 800; }
+    .remark-slide-content { font-size: 30px; line-height: 1.35; }
+    .remark-code, .remark-inline-code { font-size: 0.9em; }
+    .footnote { font-size: 0.65em; color: #666; }
+    blockquote { border-left: 6px solid #ddd; padding-left: 16px; color: #444; }
+    a { color: #0b6bcb; }
+  </style>
+</head>
+<body>
+<textarea id="source">
+class: center, middle
+
+# Conceptual Introduction  
+## Collecting Data from the Internet for Political Science
+
+**Workshop Flow**  
+1) Concepts & Ethics  
+2) Web scraping (BeautifulSoup on *scrapethissite.com*)  
+3) APIs (Bluesky AT Protocol)  
+4) LLMs for basic text analysis
+
+.footnote[Use ← → or space to navigate. Press **P** to open presenter notes.]
+
+???
+Welcome everyone. The internet is a massive archive of political communication. We'll cover conceptual issues first, then hands-on work: scraping, APIs, and LLM-based analysis.
+
+---
+
+# Why Collect Internet Data?
+- Politics, mobilization, and discourse increasingly occur online
+- We study:
+  - Social media discourse
+  - News coverage
+  - Government/open data portals
+- Internet as a **“digital archive of politics in real time.”**
+
+???
+Modern politics lives online. We can observe campaigns, policy debates, and grassroots activism as they unfold. But we must ask who is represented online and which voices are missing.
+
+---
+
+# Examples from Political Science
+- **Campaigns**: framing and issue emphasis in candidate posts
+- **Public opinion**: Reddit/forums to track narrative shifts
+- **Institutions**: bill histories via legislative sites
+- **Comparative**: censorship or media diversity across regimes
+
+???
+Campaigns: scrape or use APIs to analyze framing. Public opinion: capture sentiment and topics on forums. Institutions: assemble sponsorship patterns. Comparative: track censorship or media changes.
+
+---
+
+# Data Availability Spectrum
+- **Structured**: APIs, official datasets, open data portals
+- **Semi-structured**: HTML pages, tables, feeds
+- **Unstructured**: raw text, images, video
+- Many projects start with semi/unstructured and **structure it** for analysis
+
+???
+Imagine a spectrum: ready-made datasets vs. messy HTML/text. Much of our work is converting messy or semi-structured sources into tidy data frames suitable for analysis.
+
+---
+
+# Two Primary Access Paths
+## 1) Web Scraping
+- Automated collection of HTML content
+- Useful when structured access is unavailable
+
+## 2) APIs
+- Structured, query-based access
+- Typically easier and cleaner, but provider-controlled
+
+???
+Scraping mimics a human browsing the web and extracting content. APIs are more stable but depend on platform policies and business models. Often you’ll combine both approaches.
+
+---
+
+# Conceptual Trade-offs
+**APIs**
+- ✅ Reliable, structured, predictable
+- ❌ Restricted access; subject to shutdown or policy changes
+
+**Scraping**
+- ✅ Flexible; accesses non-API content
+- ❌ Fragile; higher ethical/legal risk
+
+???
+APIs and scraping are complements. APIs can disappear or narrow. Scraping breaks when markup changes and raises ethical questions. Choose based on availability, stability, and ethics.
+
+---
+
+# Ethical Considerations
+- Accessible ≠ Ethical
+- Key concerns:
+  - **Consent**: user expectations about study/use
+  - **Harm**: risks to vulnerable groups
+  - **Fair use**: server burden, ToS compliance
+
+???
+Publicly visible content may still be sensitive. Ask: do users expect analysis? Could publication cause harm? Are we overloading servers or violating terms?
+
+---
+
+# Legal Frameworks (U.S.)
+- **CFAA**: Computer Fraud and Abuse Act (historical basis for suits)
+- *hiQ v. LinkedIn*: scraping publicly accessible data not a CFAA violation
+- Always check:
+  - Site **Terms of Service**
+  - **robots.txt** (crawling signals)
+  - Institutional **IRB**
+
+???
+Courts have clarified some boundaries, but platforms still use ToS and technical controls. Respect robots.txt signals and consult your IRB for human-subjects implications.
+
+---
+
+# The Role of IRBs
+- Public ≠ exempt from review
+- Key issues:
+  - Identifiability (usernames/handles)
+  - Potential harms to marginalized groups
+- Best practice: **minimize** and **anonymize**
+
+???
+Even with public data, IRBs may require review. Limit collection to what you need, anonymize when feasible, and justify your data access plan.
+
+---
+
+# Transparency & Reproducibility
+- Document collection: code, timestamps, endpoints/queries
+- Share **replication code**, not necessarily raw data
+- Balance open science with privacy protection
+
+???
+Prefer sharing scripts and exact instructions to regenerate data (if ethically permissible). Avoid redistributing sensitive raw data when it risks privacy.
+
+---
+
+# Ethics in Practice — Case Studies
+- **Cambridge Analytica**: misuse of Facebook data and consent
+- **ProPublica**: scraping ad libraries to enhance transparency
+- **Censorship studies**: monitoring authoritarian controls
+
+???
+Contrast harmful data misuse (Cambridge Analytica) with accountability uses (ProPublica). Context, intent, and safeguards matter. Discuss where your project sits on this spectrum.
+
+---
+
+# The Data Lifecycle
+1) Research question  
+2) Identify sources  
+3) Evaluate constraints (ethics/legal)  
+4) Collect (scrape/API)  
+5) Clean & structure  
+6) Analyze  
+7) Share responsibly
+
+???
+Treat data access as part of a lifecycle. Ethics recur at every step. Keep logs and versions so others (and future you) can reproduce the pipeline.
+
+---
+
+# Beyond Access — Core Challenges
+- **Representativeness**: who is (not) online/on-platform?
+- **Manipulation/Bots**: coordinated inauthentic activity
+- **Platform bias**: APIs shape visibility/availability
+- **Dynamics**: deletions/edits; need snapshots & archiving
+
+???
+Measurement validity is key: who speaks, who is silent, and what systematic biases platforms introduce. Data changes—consider time-stamping and archiving strategies.
+
+---
+
+# Preparing for Hands-On
+- Practice on safe targets:
+  - **bookstoscrape.com** for scraping
+  - **Bluesky AT Protocol** for API data
+- Then: basic text analysis with **LLMs**
+
+???
+We’ll learn transferable patterns in a controlled environment, then apply them to live social data with clear rules, and finish with an LLM walkthrough.
+
+---
+
+# Key Takeaways
+- Internet data is abundant—but responsibility is essential
+- Scraping & APIs are complementary tools
+- Ethics & legality shape research design and dissemination
+- Aim for valuable, rigorous, and responsible scholarship
+
+???
+Reinforce the main message: value and responsibility must travel together. The tools are powerful; our choices determine their impact.
+
+---
+
+# Transition
+## Next: Hands-on web scraping with Python (BeautifulSoup)
+
+???
+We’ll shift into a notebook and start with HTML structure, selection, and extraction patterns on scrapethissite.com.
+</textarea>
+
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>
+  var slideshow = remark.create({
+    highlightStyle: 'github',
+    ratio: '16:9',
+    navigation: { scroll: false }
+  });
+</script>
+</body>
+</html>

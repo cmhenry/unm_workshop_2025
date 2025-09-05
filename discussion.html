@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Discussion Activity — Web Data & LLMs Workshop</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    h1, h2, h3 { font-weight: 800; }
+    .remark-slide-content { font-size: 30px; line-height: 1.35; }
+    .remark-code, .remark-inline-code { font-size: 0.9em; }
+    .footnote { font-size: 0.65em; color: #666; }
+  </style>
+</head>
+<body>
+<textarea id="source">
+class: center, middle
+
+# Discussion Activity  
+## Applying Web Data Concepts to Your Research
+
+.footnote[Break into pairs/groups, ~5–7 minutes per prompt.]
+
+???
+We’ll now connect conceptual ideas to your own research projects. Discuss in pairs or small groups; the goal is to surface practical applications and dilemmas.
+
+---
+
+# Prompt 1: Public vs. Private Data
+- Imagine studying an online political community (e.g., activists, party members, diaspora groups).  
+- Which platforms would you scrape or query via API?  
+- Treat posts as **public speech** or **private communication**?  
+- How would this affect ethical/legal choices?
+
+???
+Push students to think about expectations of privacy. Twitter may feel public, but WhatsApp or Discord are closer to private spaces. Their answers will depend on norms and project goals.
+
+---
+
+# Prompt 2: Representativeness & Bias
+- Collecting data from Twitter/X or Reddit…  
+- Who is **overrepresented** in your sample?  
+- Who might be **missing**?  
+- How could these biases shape findings?  
+- What strategies could address them?
+
+???
+Encourage critical thinking: younger, more urban, tech-savvy populations dominate some platforms. Strategies: triangulate sources, weight data, or clearly scope limits in write-up.
+
+---
+
+# Prompt 3: Transparency & Replication
+- You scrape a government website for legislative data.  
+- What parts of the process should be shared for replication?  
+- What risks prevent sharing raw data?  
+- How to balance **open science** and **responsibility**?
+
+???
+Students should weigh transparency with ethical limits. Code, scraping scripts, and documentation are safer to share than identifiable raw datasets. Discuss replication packages in political science.
+
+---
+
+# ✅ Goal  
+By the end of discussion:  
+- Connect scraping & APIs to your **own projects**  
+- Identify **ethical and methodological dilemmas**  
+- Practice framing your choices for transparency & rigor
+
+???
+Wrap-up: the point is to bridge concepts with their research interests, ensuring takeaways feel personally relevant.
+</textarea>
+
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>
+  var slideshow = remark.create({
+    highlightStyle: 'github',
+    ratio: '16:9',
+    navigation: { scroll: false }
+  });
+</script>
+</body>
+</html>
