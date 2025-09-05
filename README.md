@@ -8,6 +8,8 @@
 
 - **Conceptual Introduction to scraping, the Internet as a data source, and LLMs**: <a href="https://github.com/cmhenry/unm_workshop_2025/blob/main/conceptual.html" target="_blank">Slides</a>
 
+- **Breakout Discussion Exercise**: <a href="https://github.com/cmhenry/unm_workshop_2025/blob/main/discussion.html" target="_blank">Slides</a>
+
 ## Workshop Notebooks
 *💡 Tip: Right-click on the Colab badges below and select "Open link in new tab" to keep this page open while working with the notebooks.*
 
