@@ -1,5 +1,5 @@
-# Basics of Web Scraping and Language Models, A Workshop
-### University of New Mexico, Sept. 5 2025
+# Basics of Web Scraping and Language Models: 
+### A Workshop at the University of New Mexico, Sept. 5 2025
 
 - [https://github.com/cmhenry/unm_2025_workshop_scraping_LLM](https://github.com/cmhenry/unm_2025_workshop_scraping_LLM) - this repository with main workshop materials and notebooks
 - [https://github.com/cmhenry/unm_2025_workshop_scraping_LLM](https://github.com/cmhenry/unm_2025_workshop_scraping_LLM) - datasets used in workshop exercises
