@@ -20,3 +20,11 @@
 - **Workshop LLM Session 2 in Google Colab**: <a href="https://colab.research.google.com/github/cmhenry/unm_workshop_2025/blob/main/notebooks/workshop_session_2b_LLMs.ipynb?flush_cache=true" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 - **Workshop Bluesky API Session in Google Colab**: <a href="https://colab.research.google.com/github/cmhenry/unm_workshop_2025/blob/main/notebooks/workshop_session_3_bluesky.ipynb?flush_cache=true" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+## More Resources
+
+- <a href="https://henryhenryhenry.com/unm_workshop_2025/resources/structure-of-a-web-page.html" target="_blank">**Structure of a web page**</a>
+
+- <a href="https://henryhenryhenry.com/unm_workshop_2025/resources/structure-of-a-web-page.html" target="_blank">**Scraping exercises**</a>
+
+- - <a href="https://henryhenryhenry.com/unm_workshop_2025/introduction_to_python/" target="_blank">**Introduction to Python and Pandas**</a>
