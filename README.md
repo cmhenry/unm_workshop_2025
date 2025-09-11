@@ -1,7 +1,7 @@
 # Basics of Web Scraping and Language Models: 
 ### A Workshop at the University of New Mexico, Sept. 5 2025
 
-- [https://github.com/cmhenry/unm_2025_workshop_scraping_LLM](https://github.com/cmhenry/unm_2025_workshop_scraping_LLM) - this repository with main workshop materials and notebooks
+- [https://github.com/cmhenry/unm_workshop_2025](https://github.com/cmhenry/unm_workshop_2025) - this repository with main workshop materials and notebooks
 
 ## Workshop Slides
 
@@ -24,7 +24,7 @@
 
 - <a href="https://henryhenryhenry.com/unm_workshop_2025/resources/structure-of-a-web-page.html" target="_blank">**Structure of a web page**</a>
 
-- <a href="https://henryhenryhenry.com/unm_workshop_2025/resources/structure-of-a-web-page.html" target="_blank">**Scraping exercises**</a>
+- <a href="https://henryhenryhenry.com/unm_workshop_2025/resources/scraping-exercises.html" target="_blank">**Scraping exercises**</a>
 
 - <a href="https://henryhenryhenry.com/unm_workshop_2025/notebooks/introduction_to_python/" target="_blank">**Introduction to Python and Pandas**</a>
 
