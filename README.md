@@ -25,3 +25,9 @@
 - <a href="https://henryhenryhenry.com/unm_workshop_2025/resources/structure-of-a-web-page.html" target="_blank">**Structure of a web page**</a>
 
 - <a href="https://henryhenryhenry.com/unm_workshop_2025/resources/scraping-exercises.html" target="_blank">**Scraping exercises**</a>
+
+
+- <a href="https://henryhenryhenry.com/unm_workshop_2025/notebooks/introduction_to_python/" target="_blank">**Introduction to Python and Pandas**</a>
+
+
+- <a href="https://henryhenryhenry.com/unm_workshop_2025/notebooks/nlp/" target="_blank">**Introduction to NLP**</a>
