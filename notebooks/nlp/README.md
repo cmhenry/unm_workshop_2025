@@ -8,7 +8,7 @@
 
 - **Workshop NLP Session 1: Embeddings in Google Colab**: <a href="https://colab.research.google.com/github/cmhenry/unm_workshop_2025/blob/main/notebooks/nlp/workshop_nlp_1_embeddings.ipynb?flush_cache=true" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-- **Workshop NLP Session 2: Embeddings Again in Google Colab**: <a href="https://colab.research.google.com/github/cmhenry/unm_workshop_2025/blob/main/notebooks/nlp/workshop_nlp_2_embeddings.ipynb?flush_cache=true" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- **Workshop NLP Session 2: Embeddings Again in Google Colab**: <a href="https://colab.research.google.com/github/cmhenry/unm_workshop_2025/blob/main/notebooks/nlp/workshop_nlp_2_embeddings2.ipynb?flush_cache=true" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 - **Workshop NLP Session 3: Scikit in Google Colab**: <a href="https://colab.research.google.com/github/cmhenry/unm_workshop_2025/blob/main/notebooks/nlp/workshop_nlp_3_scikit.ipynb?flush_cache=true" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
